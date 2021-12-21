@@ -1,0 +1,29 @@
+.slider{
+    height: 50vh;
+    position: relative;
+}
+.slider img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.suivant,.prev{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.suivant{
+    right: 1rem;
+}
+.prev{
+    left: 1rem;
+}
